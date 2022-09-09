@@ -1,7 +1,7 @@
-/*
+/**
  * File: 5-printf.c
  * Autho: Victor Ogbra
- */
+ **/
 #include <stdio.h>
 
 /**
