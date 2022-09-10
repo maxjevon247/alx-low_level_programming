@@ -11,7 +11,7 @@
 int main(void)
 {
 	int d, p, q;
-
+	
 	for (d = '0'; d < '9'; d++)
 	{
 	for (p = d + 1; p <= '9'; p++)
@@ -28,12 +28,11 @@ int main(void)
 				continue;
 
 			putchar(',');
-																putchar(' ');
-																																																										}
-																		}
-																	}
-			}
-		putchar('\n');
-
-		return (0);
+			putchar(' ');
+																													}
+																}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
