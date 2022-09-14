@@ -1,4 +1,4 @@
-#include "alx.h"
+#include "main.c"
 /**
  *
  * main - Prints " _putchar", followed by a new line
