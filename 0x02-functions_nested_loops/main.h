@@ -1,12 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- *
- * File: main.h
- * Desc: Header file containing declarations for all functions
- *       used in the 0x02-functions_nested_loops directory.
- */
+#include<stdio.h>
+
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -21,4 +17,4 @@ int add(int, int);
 void print_to_98(int n);
 void print_times_table(int n);
 
-#endif
+#endif /* MAIN_H */
