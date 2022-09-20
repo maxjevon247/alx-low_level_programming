@@ -5,7 +5,6 @@
  * @a: The first int to be swapped.
  * @b: The second int to be swapped.
  */
-
 void swap_int(int *a, int *b)
 {
 	int tmp = *a;
