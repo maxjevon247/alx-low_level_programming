@@ -1,11 +1,9 @@
-/**
- * File: 6-puts2.c
- * Auth: Ogbra Victor
- */
-
 #include "main.h"
 
 /**
+ * File: 6-puts2.c
+ * Auth: Ogbra Victor
+ *
  * puts2 - Prints one char out of two of a string.
  * @str: The string containing characteres.
  */
