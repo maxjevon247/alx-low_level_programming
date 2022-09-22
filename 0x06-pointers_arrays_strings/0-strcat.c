@@ -5,18 +5,25 @@
  * Auth: Victor Ogbra
  * Desc: concatenates two strings, appends the source string to the destination
  * 	 string, overwrite the terminating null byte
- * @str1: The source string to concatenates
- * @dest: The destination string
+ * @dest: Pointer to destination string to concatenates
+ * @src: The pointer to source string
  *
- * Return: Always return 0
+ * Return: Pointer to destination string.
  */
-int main()
+char *_strcat(char *dest, char *src)
 {
-	char destination[] = "Coding is";
-	char source[] = "fun!";
+	int length, j;
 
-	strcat(destination,source);
-	_putchar("%s\n", destination);
-	return (0);
+	length = 0;
+	while (dest[length] != '\0')
+	{
+		length++;
+	}
+	for (j = 0; src[j] != '\0'; j++, length++)
+	{
+		dest[length] = src[j];
+	}
+	dest[length] = '\0';
+	return (dest);
 }
  *
