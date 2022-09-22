@@ -12,18 +12,18 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int length, j;
+	int count = 0, count2 = 0;
 
-	length = 0;
-	while (dest[length] != '\0')
+	while (*(dest + count ) != '\0')
 	{
-		length++;
+		count++;
 	}
-	for (j = 0; src[j] != '\0'; j++, length++)
+	while (count2 >= 0)
 	{
-		dest[length] = src[j];
-	}
-	dest[length] = '\0';
+	*(dest + count) = *(src + count2);
+	if (*(src + count2) == *(dest + count))
+		count ++;
+		count2++;
 	return (dest);
 
 }
