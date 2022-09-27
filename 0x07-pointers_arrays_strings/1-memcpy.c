@@ -10,11 +10,14 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	char src[] = "copy this";
-	char dest[100];
-
-	memcpy(dest, src, strlen(src) + 1);
-	putchar("src: %s\n", src);
-	putchar("dest: %s\n", dest);
-	return (dest)
+	int size = n;
+	
+	if (size > 0)
+	{
+		int i;
+		
+		for (i = 0; i < size; i++)
+			dest[i] = src[i];
+	}
+	return (dest);
 }
