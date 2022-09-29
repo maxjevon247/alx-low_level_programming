@@ -1,6 +1,5 @@
 #include "main.h"
 
-int real_root(int n, int i)
 /**
  * sqrt_recursion - Returns the natural square root of a number
  * @n:  number
