@@ -2,9 +2,9 @@
 
 /**
  * _print_rev_recursion - prints a string in reverse
- * @s: input
+ * @s: string
  *
- * Return: Always return 0
+ * Return: Always return 1
  */
 void _print_rev_recursion(char *s)
 {
@@ -13,4 +13,9 @@ void _print_rev_recursion(char *s)
 		_print_rev_recursion(s + 1);
 		_putchar(*s);
 	}
+	else
+	{
+		_putchar(*s);
+	}
+
 }
