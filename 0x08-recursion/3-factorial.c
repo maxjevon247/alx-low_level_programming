@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _factorial - returns the factorial of a given number
- *  @n: input
+ * factorial - returns the factorial of a given number
+ *  @n: input number
  *
- *  Return: Always 0
+ *  Return: Always factorial of the number.
  */
 int factorial(int n)
 {
