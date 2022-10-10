@@ -5,8 +5,9 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
-	printf("%s\n", _FILE_);
+	printf("Name of source file: %s\n", _FILE_);
+	
 	return (0);
 }
